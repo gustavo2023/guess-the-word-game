@@ -122,8 +122,6 @@ main {
 }
 
 .wrapper {
-  width: 70%;
-  max-width: 400px;
   background-color: var(--oxford-blue);
   display: flex;
   flex-direction: column;
