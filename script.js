@@ -91,7 +91,7 @@ const checkGameOver = () => {
   }
 };
 
-randomBtn.addEventListener("click", generateRandomWord);
+randomBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
 
 // Initial setup
