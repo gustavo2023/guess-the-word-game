@@ -185,6 +185,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .letter-input {
@@ -225,5 +226,29 @@ main {
   body {
     background: url("./resources/bg-guess-the-word.jpg") no-repeat center
       center/cover;
+  }
+}
+
+@media (max-width: 48rem) {
+  .wrapper {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .scrambled-word-box {
+    font-size: var(--medium-text);
+    letter-spacing: 0.4rem;
+  }
+
+  .letter-input {
+    width: 2rem;
+    height: 2rem;
+    font-size: var(--small-text);
+    margin-bottom: 1.5rem;
+  }
+
+  .buttons-container button {
+    padding: 0.5rem 1.5rem;
+    font-size: var(--small-text);
   }
 }
